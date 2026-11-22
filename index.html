@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember Duel — a battle of cards against the Ember Warden</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #071f15; }
+  body { display: flex; flex-direction: column; align-items: center; font-family: sans-serif; }
+  #game { display: block; width: 1280px; height: 800px; max-width: 100vw; }
+  #test-result { color: #071f15; font-size: 1px; user-select: none; }
+  .help { color: #cfe3d4; font-size: 14px; padding: 10px 0 20px; text-align: center; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<div id="test-result"></div>
+<div class="help">Ember Duel — click a card to play it, keys 1–7 play, E ends turn, R restarts, M mutes.</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

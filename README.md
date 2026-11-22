@@ -1,13 +1,43 @@
 # Ember Duel
 
-[![make.fun](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
-[![rank](https://make.fun/badge/best-card-game-20261122-1826/cervus-snoopy/crimson-ember-duel-7k2m/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
-[![reward](https://make.fun/badge/best-card-game-20261122-1826/cervus-snoopy/crimson-ember-duel-7k2m/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![make.fun](https://img.shields.io/badge/make.fun-bounty-orange)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![Rank](https://img.shields.io/badge/rank-coming_soon-blue)](https://github.com/cervus-snoopy/crimson-ember-duel-7k2m)
+[![Reward](https://img.shields.io/badge/reward-%2450-green)](https://github.com/cervus-snoopy/crimson-ember-duel-7k2m)
 
-An original turn-based battle card game. You duel the Warden with a deck of ember cards: Strike, Heavy Blow, Guard, Ember Burst, Mend, and Spark Chain. Spend energy, read the opponent's intent, and burn their health to zero before yours runs out.
+A turn-based battle card game. You duel the **Ember Warden** on a dark green
+felt table with ember-orange accents. Both fighters start at 30 life. Each
+turn you gain 3 energy and draw up to a 5-card hand. The Warden shows its
+intent before you act, so you can Guard or race it. Block absorbs damage
+until your next turn; Burn eats away at the start of the afflicted fighter's
+turn. Reduce the Warden to 0 life to win.
 
-Play it: open `game/index.html` in a desktop browser (or serve `game/` with any static server). Click a card to play it, press E to end your turn, R to restart, M to mute.
+## Cards
 
-- Title screen, battle table with both hands, readable card values and costs, visible life totals, win and loss screens.
-- Original art, names, and sounds (Web Audio, no files). No network requests.
-- Built for the make.fun best-card-game bounty (22 November 2026).
+| Card | Cost | Effect |
+| --- | --- | --- |
+| Strike | 1 | Deal 3 damage. |
+| Heavy Blow | 2 | Deal 6 damage. |
+| Guard | 1 | Gain 5 Block. |
+| Ember Burst | 2 | Deal 4 damage and apply Burn 2 for 2 turns. |
+| Mend | 2 | Restore 5 life. |
+| Spark Chain | 1 | Deal 2 damage and draw 1 card. |
+
+## Controls
+
+- **Mouse:** click a card to play it; click END TURN to end your turn.
+- **Keys:** 1–7 play a hand card, **E** ends turn, **R** restarts, **M** mutes.
+- **Sound:** short synthesized tones via Web Audio only — no audio files, no
+  network requests.
+
+## Play
+
+Open `game/index.html` in a browser, or serve the `game` folder with any
+static server. Staged scenes for screenshots: `?scene=title`, `?scene=play`,
+`?scene=win`, `?scene=loss`.
+
+`main.ts` (Node 22+) copies the game and screenshots into the output
+directory and writes `dossier.json` describing the entry.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
