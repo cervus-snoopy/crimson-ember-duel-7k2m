@@ -1,8 +1,8 @@
 # Ember Duel
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-orange)](https://make.fun/bounty/best-card-game-20261122-1826)
-[![Rank](https://img.shields.io/badge/rank-coming_soon-blue)](https://github.com/cervus-snoopy/crimson-ember-duel-7k2m)
-[![Reward](https://img.shields.io/badge/reward-%2450-green)](https://github.com/cervus-snoopy/crimson-ember-duel-7k2m)
+[![make.fun](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/cervus-snoopy/crimson-ember-duel-7k2m/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/cervus-snoopy/crimson-ember-duel-7k2m/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826)
 
 A turn-based battle card game. You duel the **Ember Warden** on a dark green
 felt table with ember-orange accents. Both fighters start at 30 life. Each
